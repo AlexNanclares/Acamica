@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*cabecera y pie en blanco*/
+.header_sup {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+/*logo a la izquierda*/
+.header_logo {
+    position: relative;
+    top: 22px;
+    left: 100px;
+    width: 36px;
+    height: 36px;
+}
+
+/*lista de la derecha uno al lado del otro*/
+.list_element {
+    position: relative;
+    top: 26px;
+    left: 858px;
+    display: inline;
+    padding-left: 48px;
+    list-style: none;
+    line-height: 60px;
+    font-weight: 16;
+    color: #060A24;
+}
+
+#fontawesome_list aside,i{
+    position: relative;
+    top: 3853px;
+    left: 1108px;
+    display: inline;
+    font-size: 18px;
+    color: #060A24;
+    letter-spacing: 28px;
+    line-height: 28px;
+}
+/*tipografias*/
+#mono nav,li,h4{
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: #060A24 100%;
+}
+
+#sans div,h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 64px;
+    color: #060A24;
+    letter-spacing: 0;
+    font-weight: bold;
+    display: inline;
+}
+
+.punto {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 64px;
+    color: #0000EC;
+    letter-spacing: 0;
+    font-weight: bold;
+    display: inline;
+}
+
+/*ubicacion texto principal*/
+.principal {
+    position: relative;
+    top: 200px;
+    left: 200px;
+    z-index: 2;
+}
+
+/*boton conoce mas*/
+.button {
+    position: relative;
+    top: 388px;
+    left: 200px;
+    z-index: 2;
+    width: 226px;
+    height: 56px;
+    background-color: #00F3BB;
+    font-family: 'IBM Plex Sans';
+    font-size: 18px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+}
+
+
+
+/*figura de color azul*/
+.rectangle {
+    position: relative;
+    z-index: 1;
+    top: 449px;
+    left: 0px;
+    width: 1440px;
+    height: 1042.6px;
+    background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 12%, 100% 0, 100% 88%, 0 100%);
+}
+
+.rectangle_end {
+    position: relative;
+    z-index: 1;
+    top: 3299px;
+    left: 0px;
+    width: 1440px;
+    height: 518px;
+    background:  linear-gradient(225deg, #0000FF 0%, #0000A3 100%);;
+    clip-path: polygon(0% 12%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+ /*spam*/
+.spam {
+    display: flex;
+    font-family: 'IBM Plex Mono';
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 28px;
+}
